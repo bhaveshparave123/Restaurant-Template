@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navbar*/
+
+
+
+.container-fluid .navbar-brand {
+    font-size: 2.5rem;
+    color: #FEA116;
+    font-weight: 800;
+}
+
+.navbar-expand-lg{
+    position: sticky !important;
+    top: 0;
+    z-index: 1;
+    padding: 0px 39px  !important;
+    background-color: #0F172B !important;
+}
+
+
+.navbar-collapse {
+    flex-grow:0 !important;
+    
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link:hover,
+.navbar-expand-lg .navbar-nav .nav-link.active {
+    color: #FEA116;
+}
+
+
+.nav-button {
+    text-decoration: none;
+    padding: 13px 40px;
+    background-color: #FEA116;
+    border-color: #FEA116;
+    color: white;
+    border-radius: 4px;
+}
+
+
+
+/*section 1*/
+.section-1{
+
+margin: 0px 0px 40px 0px;
+}
+
+.spinner{
+    
+    background-image: url("../images/hot-barbecue-chicken-wings-with-sauce-bbq-black-background-top-view-copy-space_89816-28771.avif");
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 11px;
+    
+}
+
+
+.img-fluid {
+    max-width: 100%;
+    
+}
+
+.spinner img {
+    animation: imgRotate 50s linear infinite;
+    position: relative;
+    top:90px;
+
+}
+
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+
+.spinner-text {
+    font-size: 4rem;
+    font-weight: 800;
+    color: white;
+}
+
+.inner-spinner {
+    padding: 0px 15px;
+    color: white;
+    text-align: left;
+
+}
+
+.button-1 {
+    text-decoration: none;
+    padding: 13px 40px;
+    background-color: #FEA116;
+    border-color: #FEA116;
+    color: white;
+    border-radius: 4px;
+}
+
+.spinner-1{
+    position: relative;
+    top: 35%;
+}
+
+
+/*section 2*/
+
+.section-2 {
+    padding: 50px 12px;
+}
+
+.service-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service-box{
+    padding: 0px 10px;
+
+}
+
+.service-inner{
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.service-section h5 {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.service-section i {
+    color: #FEA116;
+
+}
+
+.service-inner:hover{
+    background-color: #FEA116;
+    color: white;
+}
+
+
+.about-inner{
+    flex-wrap: wrap;
+    
+}
+
+.about-box-2{
+    position: relative;
+    top: 75px;
+}
+
+.about-box-3{
+    position: relative;
+    left: 75px;
+}
+
+.about-img{
+    margin: 30px 0px;
+}
+
+
+
+/*section 3*/
+
+.about-us i {
+    color: #FEA116 !important;
+    
+}
+
+.about-us h1 {
+    font-size: 2.5rem;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+.about-us p{
+    margin-bottom: 24px;
+}
+
+.inner-about-us{
+    margin-top: 100px;
+}
+
+
+.about-button{
+    text-decoration: none;
+    padding: 13px 40px;
+    background-color: #FEA116;
+    border-color: #FEA116;
+    color: white;
+    border-radius: 4px;
+}
+
+/*section 4*/
+
+.popular-food {
+    margin: 0 auto;
+}
+
+.menu-img .col-6{
+    margin: 10px 0px;
+}
+
+.menu-text{
+    float: right;
+    color: #FEA116;
+}
+
+.about-number i{
+    font-size: 35px;
+    color: #FEA116 !important;
+}
+
+
+.reservation-img {
+    max-width: 100%;
+    
+}
+
+
+.reservation-2 {
+    padding: 19px 35px;
+    background-color: #0F172B;
+    color: white;
+}
+
+.reservation-2 h1 {
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.restaurant {
+    background-color: #fbf7f1;
+}
+
+
+.reservation-form .form-control {
+    padding: 1rem .75rem;
+}
+
+
+.form-button {
+    padding-bottom: 1rem;
+    padding-top:1rem ;
+    background-color: #FEA116;
+    border-color: #FEA116;
+    color: white;
+    border-radius: 4px;
+}
+
+
+.food-menu{
+    color: #FEA116;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* section 6*/
+
+
+.img-fluid {
+    border-radius: 50%;
+}
+
+.team-item {
+    background-color: white;
+    padding: 20px 0px;
+}
+
+.team-members{
+    color: #FEA116;
+    font-family: 'Pacifico', cursive;
+}
+
+.master-chefs {
+    font-weight: 800;
+}
+
+
+/* reservation*/
+
+.book-name{
+    color: #FEA116;
+    font-family: 'Pacifico', cursive;
+}
+
+/*footer*/
+
+.footer {
+    background-color: #0F172B;
+}
+
+.footer-box h4 {
+    color: #FEA116;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-box p {
+    color: white;
+}
+
+
+button.btn {
+    background-color: #FEA116;
+    color: white;
+}
+
+
+
+.back-to-top{
+    padding: 12px 17px;
+    background-color: #FEA116;
+    color: white;
+    font-size: 1.25rem;
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+}
+
+
+
+.footer {
+    padding: 50px 0px;
+}
+
+.down-footer {
+color: white;
+}
